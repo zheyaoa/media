@@ -15,16 +15,33 @@
             <h1>公司签到情况表</h1>
         </div>
         <div id="message">
-            <p><span id="signed"></span>支队伍完成签到,<span id="unSigned"></span>支未完成签到</p>
+            <p>
+                参会单位共<span class="sumOfEnterprise"></span>家&nbsp;
+                省内<span class="sumOfEnterprisesInsideProvince"></span>家&nbsp;
+                省外<span class="sumOfEnterprisesOutsideProvince"></span>家
+            </p>
+            <p>
+                签到单位共<span class="sumOfSign"></span>家&nbsp;
+                省内<span class="sumOfSignedEnterprisesInsideProvince"></span>家&nbsp;
+                省外<span class="sumOfSignedEnterprisesOutsideProvince"></span>家
+            </p>
+            <p>
+                未签到单位共<span class="sumOfUnsign"></span>家&nbsp;
+                省内<span class="unsignedinprovince"></span>家&nbsp;
+                省外<span class="unsignedoutprovince"></span>家
+            </p>
         </div>
-        <div id="content">
+        <button id="btn">
+            <a  href="">导出签到表</a>
+        </button>
+        <!-- <div id="content">
             <div class="item-box">
                 <div class="box-title item">
                     <div class="name">公司名称</div>
                     <div class="sign">是否完成签到</div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
